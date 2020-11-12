@@ -26,6 +26,9 @@ canvas{
   display:block;
   vertical-align:bottom;
 }
+.z-index-99 {
+	z-index: 99;
+}
 .s-text-error {
 	color: #fc6c6c!important;
 }
