@@ -1,0 +1,108 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+html,body{
+	width:100%;
+	min-height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+.z-index-99 {
+	z-index: 99;
+}
+.s-text-error {
+	color: #fc6c6c!important;
+}
+.s-text-secondary {
+	color: #45da6f!important;
+}
+.s-grid{
+  width: 100%;
+  height: 100%;
+  background-color: #10203a;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.s-circle {
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	border: 1px solid white;
+	border-radius: 150px;
+}
+.s-circle img {
+}
+canvas {
+	opacity: .2;
+	min-height: 100%;
+}
+
+h1 {
+  font-size: 6rem!important;
+}
+h2 {
+	font-size: 5rem!important;
+}
+h4 {
+	font-size: 1.8rem!important;
+}
+@media screen and (max-width:1200px) {
+	h1 {
+		font-size: 5rem!important;
+	}
+	h2 {
+		font-size: 4rem!important;
+	}
+	h4 {
+		font-size: 2rem!important;
+	}
+	.s-circle {
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+		margin-bottom: 25px;
+	}
+}
+@media screen and (max-width:1000px) {
+	h1 {
+		font-size: 4rem!important;
+	}
+	h2 {
+		font-size: 3rem!important;
+	}
+	h4 {
+		font-size: 1.2rem!important;
+	}
+}
+@media screen and (max-width:700px) {
+	h1 {
+		font-size: 3rem!important;
+	}
+	h2 {
+		font-size: 2rem!important;
+	}
+	h4 {
+		font-size: 1.2rem!important;
+	}
+}
