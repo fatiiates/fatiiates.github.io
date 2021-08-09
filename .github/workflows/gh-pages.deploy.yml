@@ -26,8 +26,6 @@ jobs:
       - name: Install packages
         run: npm ci
       - name: Build project
-        env:
-          PROJECT_TEST_ENV: ${{ secrets.PROJECT_TEST_ENV }}
         run: npm run build
       - name: Export static files
         run: npm run export
