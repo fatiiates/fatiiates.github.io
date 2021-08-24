@@ -1,2 +1,2 @@
 # fatiiates.github.io
-My personel web site test
+My personel web site
