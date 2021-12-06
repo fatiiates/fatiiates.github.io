@@ -1,0 +1,15 @@
+{
+  "short_name": "Fatih ATES",
+  "name": "Fatih ATES Portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
