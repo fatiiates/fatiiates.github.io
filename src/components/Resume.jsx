@@ -13,7 +13,7 @@ class Resume extends React.Component {
           <h1>
             <u>Fa</u>tih ATES
           </h1>
-          <p>Hello, I just open source lover.</p>
+          <p>Hello, I'm just an open source lover.</p>
           <h4>Software Engineer</h4>
         </div>
 

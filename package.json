@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fatiiates.github.io/my-app",
+  "homepage": "https://fatiiates.github.io/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "react": "^16.13.1",
