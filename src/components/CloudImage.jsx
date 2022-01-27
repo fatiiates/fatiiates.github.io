@@ -8,7 +8,7 @@ class CloudImage extends React.Component {
 
   render() {
     return (
-        <div className="cloud-image"/>
+        <div className="cloud-image" style={{backgroundImage: 'url("img/cloud.jpeg")'}}/>
     );
   }
 }

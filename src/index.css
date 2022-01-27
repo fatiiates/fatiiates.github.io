@@ -67,7 +67,6 @@ code {
 }
 
 .terminal-wrapper .cloud-image {
-  background-image: url("/img/cloud.jpeg");
   background-position:bottom;
   height: 300px;
   display: none;
@@ -101,7 +100,6 @@ u {
 ul {
   padding-left: 0px;
   list-style: none;
-  /*list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');*/
 }
 
 @media screen and (max-width: 1000px) {
