@@ -20,6 +20,10 @@ code {
   text-align: start;
 }
 
+.react-terminal-line:before {
+  
+}
+
 .react-terminal-wrapper {
   border-radius: 0!important;
   border-top-left-radius: 4px!important;
