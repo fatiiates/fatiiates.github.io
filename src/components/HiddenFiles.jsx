@@ -16,6 +16,7 @@ export default (
       <th>.telegram</th>
       <th>_blank</th>
       <th><a target="_blank" rel="noreferrer" href={informations.telegram}>@telegram</a></th>
+
     </tr>
     <tr align="left">
       <th>.twitter</th>

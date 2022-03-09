@@ -16,12 +16,12 @@ code {
     monospace;
 }
 
-.react-terminal-line {
-  text-align: start;
+.react-terminal {
+  height: 100%!important;
 }
 
-.react-terminal-line:before {
-  
+.react-terminal-line {
+  text-align: start;
 }
 
 .react-terminal-wrapper {
@@ -30,6 +30,22 @@ code {
   border-bottom-left-radius: 4px!important;
   position: fixed;
   height: 100%;
+}
+
+.react-terminal-wrapper::before {
+  content:none!important;
+}
+
+.loader {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  background: #282c34;
+  justify-content: center;
 }
 
 .sidebar {
@@ -83,6 +99,7 @@ code {
 
 .indent {
   text-indent: 15px;
+  margin-top: 15px;
 }
 
 h1 {
@@ -106,14 +123,76 @@ ul {
   list-style: none;
 }
 
+.chip{
+	padding: 4px 10px;
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 12px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.25);
+	margin: 0 5px;
+  opacity: 1;
+}
+
+.chip.primary{
+	background: #00ad09;
+	color: whitesmoke;
+}
+
+.chip.secondary{
+	background: #0099ff;
+	color: whitesmoke;
+}
+
+.chip.danger{
+	background: #ff000d;
+	color: whitesmoke;
+}
+
+.animate-fade{
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.ScrollbarsCustom-ThumbY {
+  background: gray!important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dddcdc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 @media screen and (max-width: 1000px) {
   .info-wrapper {
     width: calc(100% - 30px)!important;
     margin: 30px 15px;
   }
-
+  
   .content {
     flex-direction: column-reverse;
+    margin-left: 0;
+    width: 100%;
   }
 
   .terminal-wrapper {
@@ -128,6 +207,25 @@ ul {
 
   .terminal-wrapper .cloud-image {
     display: block;
+  }
+
+  .sidebar {
+    background-color: #2d2d2d;
+    width: 100%;
+    z-index: 999;
+    display: block;
+    height: auto!important;
+    bottom: 0;
+  }
+
+  .sidebar div {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-link {
+    padding: 5px;
   }
   
 }

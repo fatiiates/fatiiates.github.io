@@ -1,9 +1,16 @@
-import React from "react";
- 
-class Resume extends React.Component {
+import React from "react"
+import ReactGA from 'react-ga'
+
+ReactGA.initialize(process.env.REACT_APP_GA_TRACKING)
+
+class Layout extends React.Component {
   constructor() {
-    super();
-    this.state = {};
+    super()
+    this.state = {}
+  }
+  
+  componentDidMount(){
+    ReactGA.pageview("home");
   }
 
   render() {
@@ -11,8 +18,8 @@ class Resume extends React.Component {
         <div className="content">
             {this.props.children}
         </div>
-    );
+    )
   }
 }
 
-export default Resume;
+export default Layout
