@@ -93,7 +93,7 @@ class TerminalUI extends React.Component {
     });
 
     return [
-      <a target="_blank" rel="noreferrer" href={url}>title</a>,
+      <a target="_blank" rel="noreferrer" href={url}>{title}</a>,
       () => {
         window.open(url)
       }
