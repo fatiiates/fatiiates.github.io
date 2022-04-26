@@ -21,6 +21,14 @@ class Sidebar extends React.Component {
         return (
         <div className="sidebar" >
             <div>
+                <div onClick={() => this.clicking("Link", "Calendly görüntülendi")} className="social-link">
+                    <a href="https://calendly.com/fatiiates" target="_blank" rel="noopener noreferrer" title="Set a meet with me!">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 50 50" fill="#fff" >
+                            <path d="M2 18L2 32 12 32 12 18zM39 9v4.31l-10 9V16H14V6h22C37.66 6 39 7.34 39 9zM29 27.69l10 9V41c0 1.66-1.34 3-3 3H14V34h15V27.69zM12 34v10H5c-1.657 0-3-1.343-3-3v-7H12zM12 6L12 16 2 16zM29 25L39 16 39 34zM49 9.25v31.5c0 .87-1.03 1.33-1.67.75L41 35.8V14.2l6.33-5.7C47.97 7.92 49 8.38 49 9.25z">
+                            </path>
+                        </svg>                    
+                    </a> 
+                </div>
                 <div onClick={() => this.clicking("Link", "Github görüntülendi")} className="social-link">
                     <a href="https://github.com/fatiiates" target="_blank" rel="noopener noreferrer" title="Github">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -71,7 +79,7 @@ class Sidebar extends React.Component {
                     <a href="https://medium.com/@fatiiates" target="_blank" rel="noopener noreferrer" title="Medium">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 64 64" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="24" height="24"><path d="M 18.998047 15 A 17.002 17.002 0 0 0 18.998047 49.003906 A 17.002 17.002 0 0 0 18.998047 15 z M 45.498047 16 A 8.502 16.002 0 0 0 45.498047 48.003906 A 8.502 16.002 0 0 0 45.498047 16 z M 58.5 17 A 3.5 15.002 0 1 0 58.5 47.003906 A 3.5 15.002 0 1 0 58.5 17 z"/></svg>
                     </a> 
-                </div>
+                </div>                
             </div>
         </div>
         )
