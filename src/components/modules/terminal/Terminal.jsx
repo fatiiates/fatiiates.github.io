@@ -1,12 +1,11 @@
 import React from "react"
 import Terminal, { ColorMode, LineType } from 'react-terminal-ui'
 import ReactGA from 'react-ga'
-// import { Scrollbar } from "react-scrollbars-custom";
 
-import informations from './Informations'
+import informations from "../../../config/Informations";
 import visibleFiles from './VisibleFiles'
 import hiddenFiles from './HiddenFiles'
-import Link from "./Link"
+import Link from "../../common/Link"
 
 class TerminalUI extends React.Component {
   constructor(props) {
@@ -129,7 +128,7 @@ class TerminalUI extends React.Component {
           terminalLineData: []
         }
 
-      if (firstCommand == "sudo")
+      if (firstCommand === "sudo")
         val.push({
           type: LineType.Output,
           value: `${this.state.username} is not in the sudoers file. This incident will be reported.`
@@ -142,7 +141,7 @@ class TerminalUI extends React.Component {
       } else if (this.commands[localInput] !== undefined) {
 
         for (const iterator of this.commands[localInput]) {
-          if (typeof iterator == 'function') {
+          if (typeof iterator === 'function') {
             iterator()
           } else {
             val.push({

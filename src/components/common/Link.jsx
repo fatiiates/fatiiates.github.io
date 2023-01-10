@@ -1,5 +1,4 @@
 import React from "react"
-import ReactGA from 'react-ga'
 
 class Link extends React.Component {
   constructor(props) {
@@ -9,7 +8,7 @@ class Link extends React.Component {
   
   render() {
     return (
-        <a target="_blank" href={this.props.url}>
+        <a target="_blank" rel="noreferrer" href={this.props.url}>
             {this.props.title}
         </a>
     )

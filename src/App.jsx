@@ -2,13 +2,12 @@ import React from 'react'
 import './App.css'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from "react-loader-spinner"
-// import { Scrollbar } from "react-scrollbars-custom";
 
-import Layout from './components/Layout'
-import TerminalController from './components/Terminal'
-import Sidebar from './components/Sidebar'
-import Resume from './components/Resume'
-import CloudImage from './components/CloudImage'
+import Layout from './components/common/Layout'
+import TerminalController from './components/modules/terminal/Terminal'
+import Sidebar from './components/common/Sidebar'
+import Resume from './components/modules/resume/Resume'
+import CloudImage from './components/common/CloudImage'
 
 
 class App extends React.Component {
@@ -37,14 +36,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
           <Loader
             type="BallTriangle"
             color="#00BFFF"
             className="loader"
             height={100}
             width={100}
-            timeout={750}
+            timeout={500}
           />
           <Sidebar />
           <Layout>
