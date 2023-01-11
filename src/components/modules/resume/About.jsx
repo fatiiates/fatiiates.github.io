@@ -15,7 +15,7 @@ class About extends React.Component {
           </h1>
           <h4>Software Engineer & Site Reliability Engineer</h4>
           <p>
-            Hey!I am Fatih <s>Faith</s> who is a software engineering
+            Hey! I am Fatih <s>Faith</s> who is a software engineering
             enthusiast.
           </p>
         </div>

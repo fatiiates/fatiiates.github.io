@@ -17,7 +17,7 @@
     "start": "webpack serve --mode development --open --hot",
     "build": "webpack --mode production && cp CNAME ./dist",
     "predeploy": "webpack --mode production",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [

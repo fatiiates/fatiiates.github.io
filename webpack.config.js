@@ -29,6 +29,12 @@ const config = {
     new CopyPlugin({
       patterns: [
         { from: "public", to: "public" },
+        { from: "public", to: "", globOptions: {
+          ignore: [
+            // Ignore all `html` files
+            "**/*.html",
+          ],
+        }, },
       ],
     }),
   ],
