@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "../../common/Link";
+import Link from "@common/Link";
 import Title from "./Title";
 
 class Education extends React.Component {

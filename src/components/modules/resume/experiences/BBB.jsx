@@ -13,7 +13,7 @@ class Tubitak extends React.Component {
         {/** BBB */}
         <Company
           prefix="bbb"
-          faviconURL="/company-icons/bbb.png"
+          faviconURL="/public/company-icons/bbb.png"
           positionTitle="Software Engineer"
           companyURL="https://www.bursa.bel.tr/"
           companyTitle="Bursa Metropolitan Municipality"

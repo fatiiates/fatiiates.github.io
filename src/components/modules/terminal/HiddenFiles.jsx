@@ -1,5 +1,5 @@
 import React from "react";
-import informations from "../../../config/Informations";
+import informations from "@config/Informations";
 
 export default (
   <React.Fragment>

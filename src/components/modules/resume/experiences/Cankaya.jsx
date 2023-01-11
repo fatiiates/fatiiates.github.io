@@ -13,7 +13,7 @@ class Softtech extends React.Component {
         {/** Cankaya */}
         <Company
           prefix="cankaya"
-          faviconURL="/company-icons/cankaya.jpg"
+          faviconURL="/public/company-icons/cankaya.jpg"
           positionTitle="Software Engineer"
           companyURL="https://cankayaenerji.com/"
           companyTitle="Cankaya Energy"

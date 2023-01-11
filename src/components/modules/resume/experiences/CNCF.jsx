@@ -13,7 +13,7 @@ class Softtech extends React.Component {
         {/** CNCF */}
         <Company
           prefix="cncf"
-          faviconURL="/company-icons/cncf.svg"
+          faviconURL="/public/company-icons/cncf.svg"
           positionTitle="Google Summer of Code '21"
           companyURL="https://www.cncf.io/"
           companyTitle="CNCF"

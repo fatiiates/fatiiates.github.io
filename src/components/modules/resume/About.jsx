@@ -14,8 +14,10 @@ class About extends React.Component {
             <u>Fa</u>tih ATES
           </h1>
           <h4>Software Engineer & Site Reliability Engineer</h4>
-          <p>Hello, I'm just an open source lover.</p>
-          <p>Every time open to new adventures.</p>
+          <p>
+            Hey!I am Fatih <s>Faith</s> who is a software engineering
+            enthusiast.
+          </p>
         </div>
       </React.Fragment>
     );

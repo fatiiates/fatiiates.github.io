@@ -13,7 +13,7 @@ class Softtech extends React.Component {
         {/** SOFTTECH */}
         <Company
           prefix="softtech"
-          faviconURL="/company-icons/softtech.png"
+          faviconURL="/public/company-icons/softtech.png"
           positionTitle="Software Engineer"
           companyURL="https://softtech.com.tr/"
           companyTitle="Softtech"

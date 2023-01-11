@@ -13,7 +13,7 @@ class Tubitak extends React.Component {
         {/** TUBITAK */}
         <Company
           prefix="tubitak"
-          faviconURL="/company-icons/tubitak.ico"
+          faviconURL="/public/company-icons/tubitak.ico"
           positionTitle="Software Engineer"
           companyURL="https://www.tubitak.gov.tr/en"
           companyTitle="TUBITAK"

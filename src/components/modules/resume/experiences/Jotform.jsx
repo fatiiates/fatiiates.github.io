@@ -13,7 +13,7 @@ class Softtech extends React.Component {
         {/** Jotform */}
         <Company
           prefix="jotform"
-          faviconURL="/company-icons/jotform.ico"
+          faviconURL="/public/company-icons/jotform.ico"
           positionTitle="Software Engineer Intern"
           companyURL="https://www.jotform.com/"
           companyTitle="Jotform"
