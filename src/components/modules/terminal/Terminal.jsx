@@ -1,6 +1,6 @@
 import React from "react";
 import Terminal, { ColorMode, LineType } from "react-terminal-ui";
-import ReactGA from "react-ga";
+import { GA_CreateEvent } from "@utils/analytics/GA";
 
 import Commands from "./Commands";
 
@@ -23,7 +23,7 @@ class TerminalUI extends React.Component {
       username: "guest",
     };
 
-    this.commands = Commands
+    this.commands = Commands;
   }
 
   onKeyDown = (e) => {
@@ -44,10 +44,10 @@ class TerminalUI extends React.Component {
       var inputCommand = localInput.trim(" ").split(" ");
       var firstCommand = inputCommand[0];
 
-      ReactGA.event({
+      GA_CreateEvent({
         category: "Command",
         action: `'${inputCommand} komutu girildi'`,
-        label: "Command_from_cli",
+        label: "Command_from_CLI",
       });
 
       if (firstCommand === "clear")

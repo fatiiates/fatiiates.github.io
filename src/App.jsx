@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import "./App.css";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
@@ -8,6 +9,9 @@ import TerminalController from "@modules/terminal/Terminal";
 import Sidebar from "@common/Sidebar";
 import Resume from "@modules/resume/Resume";
 import CloudImage from "@common/CloudImage";
+import GA_Init from "@utils/analytics/GA";
+
+GA_Init();
 
 class App extends React.Component {
   constructor(props) {

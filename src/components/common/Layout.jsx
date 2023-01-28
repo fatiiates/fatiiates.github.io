@@ -1,25 +1,19 @@
-import React from "react"
-import ReactGA from 'react-ga'
+import React from "react";
 
-ReactGA.initialize(process.env.REACT_APP_GA_TRACKING)
-
+import { GA_SetPageView } from "@utils/analytics/GA";
 class Layout extends React.Component {
   constructor() {
-    super()
-    this.state = {}
+    super();
+    this.state = {};
   }
-  
-  componentDidMount(){
-    ReactGA.pageview("home");
+
+  componentDidMount() {
+    GA_SetPageView("home");
   }
 
   render() {
-    return (
-        <div className="content">
-            {this.props.children}
-        </div>
-    )
+    return <div className="content">{this.props.children}</div>;
   }
 }
 
-export default Layout
+export default Layout;

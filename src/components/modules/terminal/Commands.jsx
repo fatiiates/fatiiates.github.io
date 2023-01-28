@@ -1,20 +1,22 @@
 import React from "react";
-import ReactGA from "react-ga";
 
 import Link from "@common/Link";
 import informations from "@config/Informations";
 import visibleFiles from "./VisibleFiles";
 import hiddenFiles from "./HiddenFiles";
+import { GA_CreateEvent } from "@utils/analytics/GA";
 
 const openLink = (url, title) => {
-  ReactGA.event({
-    category: "Link",
-    action: title + " görüntülendi",
-    label: "Link_from_CLI",
-  });
+  const track = () => {
+    GA_CreateEvent({
+      category: "Link",
+      action: title + " görüntülendi",
+      label: "Link_from_CLI",
+    });
+  };
 
   return [
-    <a target="_blank" rel="noreferrer" href={url}>
+    <a target="_blank" onClick={track} onAuxClick={track}rel="noreferrer" href={url}>
       {title}
     </a>,
     () => {
