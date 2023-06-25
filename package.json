@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.3.0",
+    "react-ga4": "^2.1.0",
     "react-loader-spinner": "^4.0.0",
     "react-scripts": "^0.0.0",
     "react-terminal-ui": "^0.1.14"
@@ -17,7 +18,7 @@
   "scripts": {
     "start": "webpack serve --mode development --open --hot",
     "build": "webpack --mode production && cp CNAME ./dist",
-    "predeploy": "webpack --mode production",
+    "predeploy": "webpack --mode production && cp CNAME ./dist",
     "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {

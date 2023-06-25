@@ -9,14 +9,9 @@ export default (
       <th><a target="_blank" rel="noreferrer" href={informations.linkedin}>@fatiiates</a></th>
     </tr>
     <tr align="left">
-      <th>resume_en</th>
+      <th>resume</th>
       <th>_blank</th>
-      <th><a target="_blank" rel="noreferrer" href={informations.resume_en}>@resume_en</a></th>
-    </tr>
-    <tr align="left">
-      <th>resume_tr</th>
-      <th>_blank</th>
-      <th><a target="_blank" rel="noreferrer" href={informations.resume_tr}>@resume_tr</a></th>
+      <th><a target="_blank" rel="noreferrer" href={informations.resume}>@resume</a></th>
     </tr>
   </React.Fragment>
 )

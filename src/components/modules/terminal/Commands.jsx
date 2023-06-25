@@ -38,7 +38,7 @@ const Commands = {
   ],
   pwd: ["/home/fatiiates"],
   whoami: ["guest"],
-  ls: ["linkedin resume_en tr_ozgecmis "],
+  ls: ["linkedin resume"],
   "sudo su": ["Permission denied."],
   "sudo su -": ["Permission denied."],
   su: ["Permission denied."],
@@ -88,8 +88,7 @@ const Commands = {
   ],
   default: ["Unrecognized command, please use help command!"],
   linkedin: openLink(informations.linkedin, "linkedin:fatiiates"),
-  resume_en: openLink(informations.resume_en, "resume_en"),
-  resume_tr: openLink(informations.resume_tr, "resume_tr"),
+  resume: openLink(informations.resume, "resume"),
 };
 
 export default Commands;

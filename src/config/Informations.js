@@ -4,8 +4,7 @@ var config = {
   twitter: "https://twitter.com/fatiiates",
   facebook: "https://www.facebook.com/fatiiates",
   telegram: "https://t.me/fatiiates",
-  resume_en: process.env.PUBLIC_URL + "/doc/resume_en.pdf",
-  resume_tr: process.env.PUBLIC_URL + "/doc/resume_tr.pdf",
+  resume: "/doc/resume.pdf",
 };
 
 export default config;

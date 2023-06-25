@@ -154,7 +154,7 @@ class Sidebar extends React.Component {
             className="social-link"
           >
             <a
-              href="/doc/resume_en.pdf"
+              href="/doc/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               title="Resume"
