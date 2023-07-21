@@ -1,5 +1,4 @@
 import React from "react";
-import ReactGA from "react-ga";
 import "./App.css";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
@@ -31,7 +30,7 @@ class App extends React.Component {
   }
 
   handleLoad() {
-    setTimeout(() => {
+    setTimeout(() => {x
       this.setState({ loader: false });
     }, 250);
   }
