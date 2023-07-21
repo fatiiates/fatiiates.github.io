@@ -30,7 +30,7 @@ class App extends React.Component {
   }
 
   handleLoad() {
-    setTimeout(() => {x
+    setTimeout(() => {
       this.setState({ loader: false });
     }, 250);
   }
