@@ -5,6 +5,7 @@ const webpack = require("webpack");
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 const isProduction = process.env.NODE_ENV == "production";
 
@@ -16,10 +17,15 @@ const config = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
   },
   devServer: {
     open: true,
     host: "localhost",
+    historyApiFallback: true,
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -34,7 +40,7 @@ const config = {
         { from: "public", to: "", globOptions: {
           ignore: [
             // Ignore all `html` files
-            "**/*.html",
+            "**/index.html",
           ],
         }, },
       ],
@@ -43,6 +49,10 @@ const config = {
       "process.env": JSON.stringify(process.env),
     }),
   ],
+  optimization: {
+    minimize: isProduction,
+    minimizer: [new TerserPlugin()],
+  },
   module: {
     rules: [
       {
@@ -77,6 +87,7 @@ const config = {
       "@modules": path.resolve(__dirname, "src/components/modules"),
       "@config": path.resolve(__dirname, "src/config"),
       "@utils": path.resolve(__dirname, "src/utils"),
+      "@routes": path.resolve(__dirname, "src/routes"),
     },
   },
 };

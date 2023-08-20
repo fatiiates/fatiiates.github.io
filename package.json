@@ -12,8 +12,10 @@
     "react-ga": "^3.3.0",
     "react-ga4": "^2.1.0",
     "react-loader-spinner": "^4.0.0",
+    "react-router-dom": "^6.15.0",
     "react-scripts": "^0.0.0",
-    "react-terminal-ui": "^0.1.14"
+    "react-terminal-ui": "^0.1.14",
+    "terser-webpack-plugin": "^5.3.9"
   },
   "scripts": {
     "start": "webpack serve --mode development --open --hot",
