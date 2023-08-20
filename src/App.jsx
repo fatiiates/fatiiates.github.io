@@ -31,7 +31,6 @@ class App extends React.Component {
     }, 250);
   }
   render() {
-    console.log("test");
     return (
       <div className="App">
         <Loader

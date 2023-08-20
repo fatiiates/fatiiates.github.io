@@ -4,7 +4,6 @@ import Home from "@routes/Home";
 import PageNotFound from "@routes/PageNotFound";
 
 function Router() {
-  console.log("Router");
   return (
     <Routes>
       <Route path="/" element={<Home />} />
