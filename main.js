@@ -9887,9 +9887,11 @@ var Softtech = /*#__PURE__*/function (_React$Component) {
         companyURL: "https://softtech.com.tr/",
         companyTitle: "Softtech",
         title: "Softtech",
-        badges: /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("span", {
+        badges: /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("span", {
+          className: "chip secondary"
+        }, "Remote"), /*#__PURE__*/react.createElement("span", {
           className: "chip secondary animate-fade"
-        }, "Remote - Currently")),
+        }, "Currently")),
         description: /*#__PURE__*/react.createElement("ul", {
           style: {
             listStyleType: "disc"
@@ -9985,11 +9987,11 @@ var BBB_Tubitak = /*#__PURE__*/function (_React$Component) {
         faviconURL: "/public/company-icons/bbb.png",
         positionTitle: "Software Engineer",
         companyURL: "https://www.bursa.bel.tr/",
-        companyTitle: "Bursa Metropolitan Municipality",
-        title: "Bursa Metropolitan Municipality",
+        companyTitle: "BBB",
+        title: "BBB",
         badges: /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("span", {
           className: "chip warning"
-        }, "On-site")),
+        }, "Onsite")),
         description: /*#__PURE__*/react.createElement("ul", {
           style: {
             listStyleType: "disc"
