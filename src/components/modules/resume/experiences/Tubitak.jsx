@@ -20,14 +20,38 @@ class Tubitak extends React.Component {
           title="TUBITAK"
           badges={
             <React.Fragment>
-              <span className="chip primary">Hybrid</span>
+              <span className="chip info">Hybrid</span>
             </React.Fragment>
           }
           description={
-            <React.Fragment>
-              Working as a team lead in the web development team of an
-              educational project.
-            </React.Fragment>
+            <ul style={{ listStyleType: "disc" }}>
+              <li>
+                Authored a graduate thesis analyzing cheating behaviors among
+                students.
+              </li>
+              <li>Developed a web application interface for users.</li>
+              <li>
+                Developed a desktop application and a backend service for the
+                web application.
+              </li>
+              <li>
+                Managed an Ubuntu server and led a small team for project
+                execution.
+              </li>
+              <li>
+                Implemented CI/CD servers for automated software development and
+                deployment.
+              </li>
+              <li>Engaged with open-source communities like Pyright.</li>
+              <li>
+                Demonstrated strong problem-solving skills and conducted
+                thorough testing and debugging.
+              </li>
+              <li>
+                Documented project requirements, design decisions, and
+                implementation details.
+              </li>
+            </ul>
           }
         />
       </React.Fragment>

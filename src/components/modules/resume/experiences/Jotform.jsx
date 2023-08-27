@@ -24,10 +24,38 @@ class Softtech extends React.Component {
             </React.Fragment>
           }
           description={
-            <React.Fragment>
-              Prevented the purchase of external SEO applications by developing
-              a web-based SEO application.
-            </React.Fragment>
+            <ul style={{ listStyleType: "disc" }}>
+              <li>
+                Developed a web-based SEO analyzer inspired by popular tools
+                like Screaming Frog.
+              </li>
+              <li>
+                Collaborated with a team to design and implement a comprehensive
+                website analysis tool.
+              </li>
+              <li>
+                Created a user-friendly web interface for inputting URLs and
+                obtaining detailed SEO reports.
+              </li>
+              <li>
+                Implemented crawling and parsing algorithms to analyze website
+                content.
+              </li>
+              <li>Integrated SEO analysis techniques.</li>
+              <li>
+                Designed and implemented a database and cache-aside caching.
+              </li>
+              <li>
+                Implemented data reporting features for presenting SEO findings.
+              </li>
+              <li>
+                Actively participated in team meetings, code reviews, and
+                discussions for improvement.
+              </li>
+              <li>
+                Documented the functionality, features, and usage instructions.
+              </li>
+            </ul>
           }
         />
       </React.Fragment>

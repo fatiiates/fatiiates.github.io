@@ -24,13 +24,27 @@ class Softtech extends React.Component {
             </React.Fragment>
           }
           description={
-            <React.Fragment>
-              Cloud Native Buildpacks’ primary function is to turn source code
-              into a runnable image and because of that it’s natural for it to
-              be used within common CI/CD platform pipelines. In this context, a
-              Jenkins Pipeline Plugin has been developed to make the use of
-              Buildpacks on Jenkins easier.
-            </React.Fragment>
+            <ul style={{ listStyleType: "disc" }}>
+              <li>
+                Developed a Jenkins pipeline plugin from scratch for Buildpacks
+                Project.
+              </li>
+              <li>Collaborated with a mentor to design and implementation.</li>
+              <li>
+                Integrated the plugin seamlessly with java-buildpack-client.
+              </li>
+              <li>
+                Implemented robust error handling and exception management.
+              </li>
+              <li>
+                Documented the plugin completely for future reference and
+                knowledge sharing.
+              </li>
+              <li>
+                Contributed to the open-source community by sharing the Jenkins
+                pipeline plugin.
+              </li>
+            </ul>
           }
         />
       </React.Fragment>

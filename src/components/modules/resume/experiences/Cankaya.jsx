@@ -24,10 +24,31 @@ class Softtech extends React.Component {
             </React.Fragment>
           }
           description={
-            <React.Fragment>
-              Took on all the tasks from the development of a website to its
-                  deployment. This is my first freelance experience.
-            </React.Fragment>
+            <ul style={{listStyleType: "disc"}}>
+               <li>
+                First of all, this was my first freelancer project.
+              </li>
+              <li>
+                Created websites using PHP, HTML, and related technologies.
+              </li>
+              <li>
+                Implemented frontend (HTML, CSS) and basic backend (PHP)
+                components.
+              </li>
+              <li>Developed static web pages and simple user interfaces.</li>
+              <li>
+                Applied responsive design principles for cross-device
+                compatibility.
+              </li>
+              <li>
+                Provided content management functionality for easy updates.
+              </li>
+              <li>
+                Produced functional website without extensive testing or
+                complex features.
+              </li>
+              <li>Documented project details for basic reference.</li>
+            </ul>
           }
         />
       </React.Fragment>

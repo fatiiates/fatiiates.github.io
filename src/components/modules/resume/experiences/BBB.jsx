@@ -16,14 +16,31 @@ class Tubitak extends React.Component {
           faviconURL="/public/company-icons/bbb.png"
           positionTitle="Software Engineer"
           companyURL="https://www.bursa.bel.tr/"
-          companyTitle="Bursa Metropolitan Municipality"
-          title="Bursa Metropolitan Municipality"
-          description={
+          companyTitle="BBB"
+          title="BBB"
+          badges={
             <React.Fragment>
-              Provided more than 10 services such as MSSQL, .NET Core Web
-                  API to the developers in the development environment by
-                  establishing a cluster within the municipality.
+              <span className="chip warning">Onsite</span>
             </React.Fragment>
+          }
+          description={
+            <ul style={{ listStyleType: "disc" }}>
+              <li>Provisioned a stable virtualization environment.</li>
+              <li>Configured Docker on the machine.</li>
+              <li>
+                Established GitLab as a collaborative version control system.
+              </li>
+              <li>Automated software development and deployment processes.</li>
+              <li>
+                Managed provisioning and maintenance of Moodle and BBB
+                platforms.
+              </li>
+              <li>Actively engaged with the open-source community.</li>
+              <li>
+                Ensured comprehensive documentation of infrastructure,
+                configurations, and processes.
+              </li>
+            </ul>
           }
         />
       </React.Fragment>

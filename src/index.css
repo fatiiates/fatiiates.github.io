@@ -140,8 +140,8 @@ classes
 }
 
 .indent {
-  text-indent: 15px;
   margin-top: 15px;
+  margin-left: 25px;
 }
 
 .title {
@@ -159,12 +159,22 @@ classes
 }
 
 .chip.primary {
-  background: #00ad09;
+  background: #7308e5;
   color: whitesmoke;
 }
 
 .chip.secondary {
+  background: #00ad09;
+  color: whitesmoke;
+}
+
+.chip.info {
   background: #0099ff;
+  color: whitesmoke;
+}
+
+.chip.warning {
+  background: #ff9a00;
   color: whitesmoke;
 }
 
