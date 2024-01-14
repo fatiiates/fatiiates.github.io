@@ -744,7 +744,7 @@ exports.unstable_renderSubtreeIntoContainer=function(a,b,c,d){if(!gk(c))throw Er
 
 /***/ }),
 
-/***/ 834:
+/***/ 935:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
@@ -3520,7 +3520,7 @@ var __webpack_exports__ = {};
 var react = __webpack_require__(294);
 var react_namespaceObject = /*#__PURE__*/__webpack_require__.t(react, 2);
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
-var react_dom = __webpack_require__(834);
+var react_dom = __webpack_require__(935);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
 var injectStylesIntoStyleTag = __webpack_require__(379);
 var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
@@ -3639,7 +3639,7 @@ var react_ga4_dist = __webpack_require__(89);
 ;// CONCATENATED MODULE: ./src/utils/analytics/GA.jsx
 
 var GA_Init = function GA_Init() {
-  react_ga4_dist/* default.initialize */.ZP.initialize({"TERM_PROGRAM":"vscode","NODE":"/opt/homebrew/Cellar/node/20.3.1_1/bin/node","INIT_CWD":"/Users/fatiiates/git/fatiiates/fatiiates.github.io","_P9K_TTY":"/dev/ttys001","TERM":"xterm-256color","SHELL":"/bin/zsh","npm_config_metrics_registry":"https://registry.npmjs.org/","TMPDIR":"/var/folders/pc/w_3x2_fx68v0qr7pktw485280000gn/T/","npm_config_global_prefix":"/opt/homebrew","TERM_PROGRAM_VERSION":"1.81.1","ZDOTDIR":"/Users/fatiiates","FIG_NEW_SESSION":"1","ORIGINAL_XDG_CURRENT_DESKTOP":"undefined","MallocNanoZone":"0","COLOR":"1","npm_config_noproxy":"","npm_config_local_prefix":"/Users/fatiiates/git/fatiiates/fatiiates.github.io","ZSH":"/Users/fatiiates/.oh-my-zsh","USER":"fatiiates","LS_COLORS":"di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43","COMMAND_MODE":"unix2003","npm_config_globalconfig":"/opt/homebrew/etc/npmrc","SSH_AUTH_SOCK":"/private/tmp/com.apple.launchd.YPhr6rpmEj/Listeners","__CF_USER_TEXT_ENCODING":"0x1F5:0x0:0x0","npm_execpath":"/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js","PAGER":"less","LSCOLORS":"Gxfxcxdxbxegedabagacad","PATH":"/Users/fatiiates/git/fatiiates/fatiiates.github.io/node_modules/.bin:/Users/fatiiates/git/fatiiates/node_modules/.bin:/Users/fatiiates/git/node_modules/.bin:/Users/fatiiates/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/fatiiates/.orbstack/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/fatiiates/.orbstack/bin:/opt/homebrew/bin:/usr/local/go/bin:/Users/fatiiates/go/bin","npm_package_json":"/Users/fatiiates/git/fatiiates/fatiiates.github.io/package.json","_":"/Users/fatiiates/git/fatiiates/fatiiates.github.io/node_modules/.bin/webpack","npm_config_userconfig":"/Users/fatiiates/.npmrc","npm_config_init_module":"/Users/fatiiates/.npm-init.js","USER_ZDOTDIR":"/Users/fatiiates","__CFBundleIdentifier":"com.microsoft.VSCode","npm_command":"run-script","PWD":"/Users/fatiiates/git/fatiiates/fatiiates.github.io","VSCODE_NONCE":"16298853-1313-4d15-9512-c29b81dde2ad","npm_lifecycle_event":"predeploy","EDITOR":"vi","P9K_SSH":"0","npm_package_name":"fatih-ates-portfolio","P9K_TTY":"old","LANG":"en_US.UTF-8","VSCODE_GIT_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","XPC_FLAGS":"0x0","npm_config_node_gyp":"/opt/homebrew/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js","npm_package_version":"0.1.0","XPC_SERVICE_NAME":"0","VSCODE_INJECTION":"1","DOTFILES_PATH":"/Users/fatiiates/git/fatiiates/dotfiles","SHLVL":"2","HOME":"/Users/fatiiates","VSCODE_GIT_ASKPASS_MAIN":"/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js","HOMEBREW_PREFIX":"/opt/homebrew","npm_config_cache":"/Users/fatiiates/.npm","LESS":"-R","LOGNAME":"fatiiates","npm_lifecycle_script":"webpack --mode production && cp CNAME ./dist","VSCODE_GIT_IPC_HANDLE":"/var/folders/pc/w_3x2_fx68v0qr7pktw485280000gn/T/vscode-git-13aff0507d.sock","npm_config_user_agent":"npm/9.6.7 node/v20.3.1 darwin arm64 workspaces/false","GITHUB_USERNAME":"fatiiates","VSCODE_GIT_ASKPASS_NODE":"/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)","GIT_ASKPASS":"/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh","_P9K_SSH_TTY":"/dev/ttys001","npm_node_execpath":"/opt/homebrew/Cellar/node/20.3.1_1/bin/node","npm_config_prefix":"/opt/homebrew","COLORTERM":"truecolor","PORT":"80","REACT_APP_HOSTNAME":"localhost","REACT_APP_GA_TRACKING":"G-CCNYKMWDKR"}.REACT_APP_GA_TRACKING);
+  react_ga4_dist/* default.initialize */.ZP.initialize({"TERM_PROGRAM":"vscode","NODE":"/opt/homebrew/Cellar/node/21.5.0/bin/node","INIT_CWD":"/Users/fatiiates/git/fatiiates/fatiiates.github.io","_P9K_TTY":"/dev/ttys001","TERM":"xterm-256color","SHELL":"/bin/zsh","TMPDIR":"/var/folders/pc/w_3x2_fx68v0qr7pktw485280000gn/T/","npm_config_global_prefix":"/opt/homebrew","TERM_PROGRAM_VERSION":"1.85.1","ZDOTDIR":"/Users/fatiiates","FIG_NEW_SESSION":"1","ORIGINAL_XDG_CURRENT_DESKTOP":"undefined","MallocNanoZone":"0","COLOR":"1","npm_config_noproxy":"","npm_config_local_prefix":"/Users/fatiiates/git/fatiiates/fatiiates.github.io","ZSH":"/Users/fatiiates/.oh-my-zsh","USER":"fatiiates","LS_COLORS":"di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43","COMMAND_MODE":"unix2003","npm_config_globalconfig":"/opt/homebrew/etc/npmrc","SSH_AUTH_SOCK":"/private/tmp/com.apple.launchd.wyoqeLbE8s/Listeners","__CF_USER_TEXT_ENCODING":"0x1F5:0x0:0x0","npm_execpath":"/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js","PAGER":"less","LSCOLORS":"Gxfxcxdxbxegedabagacad","PATH":"/Users/fatiiates/git/fatiiates/fatiiates.github.io/node_modules/.bin:/Users/fatiiates/git/fatiiates/node_modules/.bin:/Users/fatiiates/git/node_modules/.bin:/Users/fatiiates/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/Wireshark.app/Contents/MacOS:/opt/homebrew/bin:/usr/local/go/bin:/Users/fatiiates/go/bin:/Users/fatiiates/.orbstack/bin:/Users/fatiiates/.orbstack/bin","npm_package_json":"/Users/fatiiates/git/fatiiates/fatiiates.github.io/package.json","_":"/Users/fatiiates/git/fatiiates/fatiiates.github.io/node_modules/.bin/webpack","npm_config_userconfig":"/Users/fatiiates/.npmrc","npm_config_init_module":"/Users/fatiiates/.npm-init.js","USER_ZDOTDIR":"/Users/fatiiates","__CFBundleIdentifier":"com.microsoft.VSCode","npm_command":"run-script","PWD":"/Users/fatiiates/git/fatiiates/fatiiates.github.io","VSCODE_NONCE":"f5bfec38-d155-42a3-a273-02df3a124303","npm_lifecycle_event":"predeploy","EDITOR":"vi","P9K_SSH":"0","npm_package_name":"fatih-ates-portfolio","P9K_TTY":"old","LANG":"en_US.UTF-8","npm_config_npm_version":"10.2.4","VSCODE_GIT_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","XPC_FLAGS":"0x0","npm_config_node_gyp":"/opt/homebrew/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js","npm_package_version":"0.1.0","XPC_SERVICE_NAME":"0","VSCODE_INJECTION":"1","DOTFILES_PATH":"/Users/fatiiates/git/fatiiates/dotfiles","SHLVL":"2","HOME":"/Users/fatiiates","VSCODE_GIT_ASKPASS_MAIN":"/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js","HOMEBREW_PREFIX":"/opt/homebrew","npm_config_cache":"/Users/fatiiates/.npm","LESS":"-R","LOGNAME":"fatiiates","npm_lifecycle_script":"webpack --mode production && cp CNAME ./dist","VSCODE_GIT_IPC_HANDLE":"/var/folders/pc/w_3x2_fx68v0qr7pktw485280000gn/T/vscode-git-13aff0507d.sock","npm_config_user_agent":"npm/10.2.4 node/v21.5.0 darwin arm64 workspaces/false","GITHUB_USERNAME":"fatiiates","VSCODE_GIT_ASKPASS_NODE":"/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)","GIT_ASKPASS":"/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh","_P9K_SSH_TTY":"/dev/ttys001","npm_node_execpath":"/opt/homebrew/Cellar/node/21.5.0/bin/node","npm_config_prefix":"/opt/homebrew","COLORTERM":"truecolor","PORT":"80","REACT_APP_HOSTNAME":"localhost","REACT_APP_GA_TRACKING":"G-CCNYKMWDKR"}.REACT_APP_GA_TRACKING);
 };
 var GA_SetPageView = function GA_SetPageView(pageview) {
   react_ga4_dist/* default.send */.ZP.send({
@@ -9296,11 +9296,7 @@ var config = {
   rel: "noreferrer",
   href: Informations.twitter
 }, "@twitter")))));
-;// CONCATENATED MODULE: ./src/components/modules/terminal/Commands.jsx
-
-
-
-
+;// CONCATENATED MODULE: ./src/utils/openLink.jsx
 
 
 var openLink = function openLink(url, title) {
@@ -9321,6 +9317,20 @@ var openLink = function openLink(url, title) {
     window.open(url);
   }];
 };
+/* harmony default export */ var utils_openLink = (openLink);
+;// CONCATENATED MODULE: ./src/components/modules/terminal/Commands.jsx
+function Commands_typeof(obj) { "@babel/helpers - typeof"; return Commands_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, Commands_typeof(obj); }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function _defineProperty(obj, key, value) { key = Commands_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function Commands_toPropertyKey(arg) { var key = Commands_toPrimitive(arg, "string"); return Commands_typeof(key) === "symbol" ? key : String(key); }
+function Commands_toPrimitive(input, hint) { if (Commands_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (Commands_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+
+
+
+
+
+
 var Commands = {
   help: [/*#__PURE__*/react.createElement(react.Fragment, null, "Hmm, someone needs help :) Anyway,", /*#__PURE__*/react.createElement(common_Link, {
     url: "https://man7.org/linux/man-pages/man1/ls.1.html",
@@ -9376,10 +9386,30 @@ var Commands = {
     align: "left"
   }, /*#__PURE__*/react.createElement("th", null, "-----"), /*#__PURE__*/react.createElement("th", null, "------"), /*#__PURE__*/react.createElement("th", null, "------")), HiddenFiles, VisibleFiles)))],
   default: ["Unrecognized command, please use help command!"],
-  linkedin: openLink(Informations.linkedin, "linkedin:fatiiates"),
-  resume: openLink(Informations.resume, "resume")
+  linkedin: utils_openLink(Informations.linkedin, "linkedin:fatiiates"),
+  resume: utils_openLink(Informations.resume, "resume")
 };
-/* harmony default export */ var terminal_Commands = (Commands);
+var AdditionalCommands = {
+  echo: ["Hello, world!"],
+  date: [new Date().toLocaleString()],
+  cal: ["Sorry, no calendar available."],
+  cat: ["Meow! Sorry, no files here."],
+  mkdir: ["Permission denied."],
+  touch: ["Permission denied."],
+  rm: ["Permission denied."],
+  history: ["1. ls -l", "2. whoami", "3. echo Hello, world!"],
+  clear: ["Terminal cleared."],
+  weather: ["Sorry, weather information not available."],
+  man: ["Sorry, manual not available."],
+  grep: ["Permission denied."],
+  find: ["Permission denied."],
+  ps: ["No processes running."],
+  top: ["Sorry, system resources not available."]
+};
+
+// Merge the existing commands with the additional commands
+var AllCommands = _objectSpread(_objectSpread({}, Commands), AdditionalCommands);
+/* harmony default export */ var terminal_Commands = (AllCommands);
 ;// CONCATENATED MODULE: ./src/components/modules/terminal/Terminal.jsx
 function Terminal_typeof(obj) { "@babel/helpers - typeof"; return Terminal_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, Terminal_typeof(obj); }
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
@@ -9399,7 +9429,7 @@ function Terminal_possibleConstructorReturn(self, call) { if (call && (Terminal_
 function Terminal_assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 function Terminal_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function Terminal_getPrototypeOf(o) { Terminal_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return Terminal_getPrototypeOf(o); }
-function _defineProperty(obj, key, value) { key = Terminal_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function Terminal_defineProperty(obj, key, value) { key = Terminal_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function Terminal_toPropertyKey(arg) { var key = Terminal_toPrimitive(arg, "string"); return Terminal_typeof(key) === "symbol" ? key : String(key); }
 function Terminal_toPrimitive(input, hint) { if (Terminal_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (Terminal_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 
@@ -9413,12 +9443,12 @@ var TerminalUI = /*#__PURE__*/function (_React$Component) {
     var _this;
     Terminal_classCallCheck(this, TerminalUI);
     _this = _super.call(this, props);
-    _defineProperty(Terminal_assertThisInitialized(_this), "onKeyDown", function (e) {
+    Terminal_defineProperty(Terminal_assertThisInitialized(_this), "onKeyDown", function (e) {
       if (e.key === "Tab") {
         e.preventDefault();
       }
     });
-    _defineProperty(Terminal_assertThisInitialized(_this), "onInput", function (terminalInput) {
+    Terminal_defineProperty(Terminal_assertThisInitialized(_this), "onInput", function (terminalInput) {
       _this.setState(function (state) {
         var val = [{
           type: LineType.Input,
@@ -9438,12 +9468,7 @@ var TerminalUI = /*#__PURE__*/function (_React$Component) {
         if (firstCommand === "sudo") val.push({
           type: LineType.Output,
           value: "".concat(_this.state.username, " is not in the sudoers file. This incident will be reported.")
-        });else if (firstCommand === "cat") {
-          val.push({
-            type: LineType.Output,
-            value: _this.commands["default"]
-          });
-        } else if (_this.commands[localInput] !== undefined) {
+        });else if (_this.commands[localInput] !== undefined) {
           var _iterator = _createForOfIteratorHelper(_this.commands[localInput]),
             _step;
           try {
