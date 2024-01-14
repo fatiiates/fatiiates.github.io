@@ -60,12 +60,7 @@ class TerminalUI extends React.Component {
           type: LineType.Output,
           value: `${this.state.username} is not in the sudoers file. This incident will be reported.`,
         });
-      else if (firstCommand === "cat") {
-        val.push({
-          type: LineType.Output,
-          value: this.commands["default"],
-        });
-      } else if (this.commands[localInput] !== undefined) {
+       else if (this.commands[localInput] !== undefined) {
         for (const iterator of this.commands[localInput]) {
           if (typeof iterator === "function") {
             iterator();

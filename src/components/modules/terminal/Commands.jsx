@@ -4,26 +4,7 @@ import Link from "@common/Link";
 import informations from "@config/Informations";
 import visibleFiles from "./VisibleFiles";
 import hiddenFiles from "./HiddenFiles";
-import { GA_CreateEvent } from "@utils/analytics/GA";
-
-const openLink = (url, title) => {
-  const track = () => {
-    GA_CreateEvent({
-      category: "Link",
-      action: title + " görüntülendi",
-      label: "Link_from_CLI",
-    });
-  };
-
-  return [
-    <a target="_blank" onClick={track} onAuxClick={track}rel="noreferrer" href={url}>
-      {title}
-    </a>,
-    () => {
-      window.open(url);
-    },
-  ];
-};
+import openLink from "@utils/openLink";
 
 const Commands = {
   help: [
@@ -91,4 +72,26 @@ const Commands = {
   resume: openLink(informations.resume, "resume"),
 };
 
-export default Commands;
+const AdditionalCommands = {
+  echo: ["Hello, world!"],
+  date: [new Date().toLocaleString()],
+  cal: ["Sorry, no calendar available."],
+  cat: ["Meow! Sorry, no files here."],
+  mkdir: ["Permission denied."],
+  touch: ["Permission denied."],
+  rm: ["Permission denied."],
+  history: ["1. ls -l", "2. whoami", "3. echo Hello, world!"],
+  clear: ["Terminal cleared."],
+  weather: ["Sorry, weather information not available."],
+  man: ["Sorry, manual not available."],
+  grep: ["Permission denied."],
+  find: ["Permission denied."],
+  ps: ["No processes running."],
+  top: ["Sorry, system resources not available."],
+};
+
+// Merge the existing commands with the additional commands
+const AllCommands = { ...Commands, ...AdditionalCommands };
+
+
+export default AllCommands;
